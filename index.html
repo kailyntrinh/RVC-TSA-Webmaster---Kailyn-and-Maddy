@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="vro.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RAVENSCROFT
+            NCSHS
+            RESOURCE HUB
+    </title>
+</head>
+<body>
+    <!-- <div class="top">
+        <input type="text" id="search" placeholder="Search for Opportunities">
+    <select id="filter">
+        <option value="all">All</option>
+    
+        <option value="middle">Middle School</option>
+    
+        <option value="hoc">Hour of Code</option>
+    
+        <option value="cypress">Cypress of Raleigh</option>
+    </select>
+    </div> 
+
+    <div id="resources"></div> -->
+    
+    <div class="title">
+        <h1>RAVENSCROFT<br>
+        NCSHS<br>
+        RESOURCE HUB</h1>
+    </div>
+
+
+
+    <div class="image right" onclick="toggle(this)">
+        <img src="grey.jpeg" alt="POSTERS">
+<div class="label">POSTERS</div>
+<div class="overlay">
+    <button onclick="event.stopPropagation(); goToPage('posters.html')">View Posters</button>
+    <button onclick="event.stopPropagation(); goToPage('about.html')">About Us</button>
+</div>
+    </div>
+
+
+
+
+    <div class="image middlet" onclick="toggle(this)">
+        <img src="medium grey.jpeg" alt="Opportunities">
+
+<div class="label">Opportunities</div>
+<div class="overlay">
+    <button onclick="event.stopPropagation(); goToPage('opps.html')">All Opportunities</button>
+    <button onclick="event.stopPropagation(); goToPage('events.html')">Events</button>
+</div>
+</div>
+
+
+<div class="image left" onclick="toggle(this)">
+    <img src="light grey.jpeg" alt="submit">
+
+<div class="label">Get Involved</div>
+<div class="overlay">
+<button onclick="event.stopPropagation(); goToPage('form.html')">Submit</button>
+<button onclick="event.stopPropagation(); goToPage('contact.html')">Contact</button>
+</div>
+</div>
+
+
+
+
+
+   
+
+    <div class="bottom">
+        <div class="nav" onclick="goToPage('about.html')">
+            <h3>about us</h3>
+        </div>
+
+        <div class="nav" onclick="goToPage('form.html')">
+            <h3>form</h3>
+        </div>
+
+        <div class="nav" onclick="goToPage('contact.html')">
+            <h3>Contact</h3>
+        </div>
+
+    </div>
+    <script src="vro.js"></script>
+</body>
+</html>
